@@ -1,8 +1,8 @@
 import random, sys, math
 
-#En lugar de matrices seusan lisatas de listas
+#En lugar de matrices se usan listas de listas
 
-#Genera una matrix de distancias de nPuntos x nPuntos
+#Genera una matriz de distancias de nPuntos x nPuntos
 def matrizdeDistancias(nPuntos, distanciaMaxima):
     matriz = [[0 for i in range(nPuntos)]for j in range(nPuntos)]
     
